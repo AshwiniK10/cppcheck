@@ -23,3 +23,5 @@ language: cpp
         - cppcheck --quiet . 
         # cppcheck that makes the Travis build fail
         #- cppcheck --quiet --error-exitcode=1 . 
+
+

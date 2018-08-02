@@ -12,7 +12,7 @@ install:
    - sudo apt-get install -qq g++-6
    - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-6 90
  # cppcheck
-    - sudo apt-get install -qq cppcheck
+   - sudo apt-get install -qq cppcheck
 
  script: 
  # Build and run this project
